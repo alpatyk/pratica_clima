@@ -2,7 +2,6 @@ from flask import Flask, jsonify
 
 app_b = Flask(__name__)
 
-# Dados de clima fictícios para algumas cidades
 weather_data = {
     "sãopaulo": {"city": "São_Paulo", "temp": 25, "unit": "Celsius"},
     "riodejaneiro": {"city": "Rio_de_Janeiro", "temp": 32, "unit": "Celsius"},
