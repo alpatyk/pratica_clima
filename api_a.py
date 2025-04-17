@@ -13,11 +13,11 @@ CACHE_EXPIRATION = 300  # 5 minutos em segundos
 
 def get_recommendation(temp):
     if temp > 30:
-        return "Está muito quente! Hidrate-se e use protetor solar."
+        return "Está Djano de quente! Hidrate-se e use protetor solar."
     elif temp >= 15:
         return "O clima está agradável. Aproveite o dia!"
     else:
-        return "Está frio! Recomendo usar um casaco."
+        return "Está frio! Recomendo não esquecer a Japona."
 
 @app.route('/recommendation/<city>')
 def get_city_recommendation(city):
